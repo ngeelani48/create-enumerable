@@ -1,0 +1,6 @@
+require "./my_enumerable"
+class MyList
+include MyEnumerable
+def intialize (list)
+    @list = list
+end
